@@ -7,21 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11C056CE5E2BFFBC94FE2EE9 /* Pods_ToDoAppWithAuthAndPic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F2CDFF8EC61447B77CADD7 /* Pods_ToDoAppWithAuthAndPic.framework */; };
 		9CB8BEF320602514003F662C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB8BEF220602514003F662C /* AppDelegate.swift */; };
-		9CB8BEF520602514003F662C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB8BEF420602514003F662C /* ViewController.swift */; };
 		9CB8BEF820602514003F662C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB8BEF620602514003F662C /* Main.storyboard */; };
 		9CB8BEFA20602514003F662C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CB8BEF920602514003F662C /* Assets.xcassets */; };
 		9CB8BEFD20602514003F662C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB8BEFB20602514003F662C /* LaunchScreen.storyboard */; };
+		9CB8BF052060280D003F662C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CB8BF042060280D003F662C /* GoogleService-Info.plist */; };
+		9CB8BF1320602A13003F662C /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB8BF0720602A13003F662C /* YoshikoTextField.swift */; };
+		9CB8BF1420602A13003F662C /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB8BF0920602A13003F662C /* HoshiTextField.swift */; };
+		9CB8BF1520602A13003F662C /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB8BF0A20602A13003F662C /* MinoruTextField.swift */; };
+		9CB8BF1620602A13003F662C /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB8BF0B20602A13003F662C /* YokoTextField.swift */; };
+		9CB8BF1720602A13003F662C /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB8BF0C20602A13003F662C /* TextFieldEffects.swift */; };
+		9CB8BF1820602A13003F662C /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB8BF0D20602A13003F662C /* JiroTextField.swift */; };
+		9CB8BF1920602A13003F662C /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB8BF0E20602A13003F662C /* MadokaTextField.swift */; };
+		9CB8BF1A20602A13003F662C /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB8BF0F20602A13003F662C /* KaedeTextField.swift */; };
+		9CB8BF1B20602A13003F662C /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB8BF1020602A13003F662C /* AkiraTextField.swift */; };
+		9CB8BF1C20602A13003F662C /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB8BF1120602A13003F662C /* IsaoTextField.swift */; };
+		9CB8BF1D20602A13003F662C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CB8BF1220602A13003F662C /* Info.plist */; };
+		9CCD498720604BE4001F9184 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCD498620604BE4001F9184 /* ListTableViewController.swift */; };
+		9CCD498920604C0F001F9184 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCD498820604C0F001F9184 /* SignInViewController.swift */; };
+		9CCD498B20604C39001F9184 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCD498A20604C39001F9184 /* SignUpViewController.swift */; };
+		9CE537AB2062D02F00BA67AF /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE537AA2062D02F00BA67AF /* ToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CD19F128C9B4D5017AC123D /* Pods-ToDoAppWithAuthAndPic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoAppWithAuthAndPic.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToDoAppWithAuthAndPic/Pods-ToDoAppWithAuthAndPic.release.xcconfig"; sourceTree = "<group>"; };
 		9CB8BEEF20602514003F662C /* ToDoAppWithAuthAndPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoAppWithAuthAndPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB8BEF220602514003F662C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9CB8BEF420602514003F662C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CB8BEF720602514003F662C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CB8BEF920602514003F662C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CB8BEFC20602514003F662C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CB8BEFE20602514003F662C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB8BF042060280D003F662C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9CB8BF0720602A13003F662C /* YoshikoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoshikoTextField.swift; sourceTree = "<group>"; };
+		9CB8BF0820602A13003F662C /* TextFieldEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldEffects.h; sourceTree = "<group>"; };
+		9CB8BF0920602A13003F662C /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
+		9CB8BF0A20602A13003F662C /* MinoruTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinoruTextField.swift; sourceTree = "<group>"; };
+		9CB8BF0B20602A13003F662C /* YokoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YokoTextField.swift; sourceTree = "<group>"; };
+		9CB8BF0C20602A13003F662C /* TextFieldEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldEffects.swift; sourceTree = "<group>"; };
+		9CB8BF0D20602A13003F662C /* JiroTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JiroTextField.swift; sourceTree = "<group>"; };
+		9CB8BF0E20602A13003F662C /* MadokaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadokaTextField.swift; sourceTree = "<group>"; };
+		9CB8BF0F20602A13003F662C /* KaedeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaedeTextField.swift; sourceTree = "<group>"; };
+		9CB8BF1020602A13003F662C /* AkiraTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AkiraTextField.swift; sourceTree = "<group>"; };
+		9CB8BF1120602A13003F662C /* IsaoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsaoTextField.swift; sourceTree = "<group>"; };
+		9CB8BF1220602A13003F662C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CCD498620604BE4001F9184 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		9CCD498820604C0F001F9184 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		9CCD498A20604C39001F9184 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		9CE537AA2062D02F00BA67AF /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
+		DB414B6DA3851C2463C9FE63 /* Pods-ToDoAppWithAuthAndPic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoAppWithAuthAndPic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToDoAppWithAuthAndPic/Pods-ToDoAppWithAuthAndPic.debug.xcconfig"; sourceTree = "<group>"; };
+		F0F2CDFF8EC61447B77CADD7 /* Pods_ToDoAppWithAuthAndPic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoAppWithAuthAndPic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +64,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11C056CE5E2BFFBC94FE2EE9 /* Pods_ToDoAppWithAuthAndPic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		823E32A2AF1B6AA2803CFF89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB414B6DA3851C2463C9FE63 /* Pods-ToDoAppWithAuthAndPic.debug.xcconfig */,
+				3CD19F128C9B4D5017AC123D /* Pods-ToDoAppWithAuthAndPic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9CB8BEE620602514003F662C = {
 			isa = PBXGroup;
 			children = (
 				9CB8BEF120602514003F662C /* ToDoAppWithAuthAndPic */,
 				9CB8BEF020602514003F662C /* Products */,
+				823E32A2AF1B6AA2803CFF89 /* Pods */,
+				C8499334E83FCAD72FD32251 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +102,45 @@
 			isa = PBXGroup;
 			children = (
 				9CB8BEF220602514003F662C /* AppDelegate.swift */,
-				9CB8BEF420602514003F662C /* ViewController.swift */,
 				9CB8BEF620602514003F662C /* Main.storyboard */,
+				9CCD498820604C0F001F9184 /* SignInViewController.swift */,
+				9CCD498A20604C39001F9184 /* SignUpViewController.swift */,
+				9CCD498620604BE4001F9184 /* ListTableViewController.swift */,
+				9CE537AA2062D02F00BA67AF /* ToDoViewController.swift */,
 				9CB8BEF920602514003F662C /* Assets.xcassets */,
 				9CB8BEFB20602514003F662C /* LaunchScreen.storyboard */,
 				9CB8BEFE20602514003F662C /* Info.plist */,
+				9CB8BF042060280D003F662C /* GoogleService-Info.plist */,
+				9CB8BF0620602A13003F662C /* TextFieldEffects */,
 			);
 			path = ToDoAppWithAuthAndPic;
+			sourceTree = "<group>";
+		};
+		9CB8BF0620602A13003F662C /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				9CB8BF0720602A13003F662C /* YoshikoTextField.swift */,
+				9CB8BF0820602A13003F662C /* TextFieldEffects.h */,
+				9CB8BF0920602A13003F662C /* HoshiTextField.swift */,
+				9CB8BF0A20602A13003F662C /* MinoruTextField.swift */,
+				9CB8BF0B20602A13003F662C /* YokoTextField.swift */,
+				9CB8BF0C20602A13003F662C /* TextFieldEffects.swift */,
+				9CB8BF0D20602A13003F662C /* JiroTextField.swift */,
+				9CB8BF0E20602A13003F662C /* MadokaTextField.swift */,
+				9CB8BF0F20602A13003F662C /* KaedeTextField.swift */,
+				9CB8BF1020602A13003F662C /* AkiraTextField.swift */,
+				9CB8BF1120602A13003F662C /* IsaoTextField.swift */,
+				9CB8BF1220602A13003F662C /* Info.plist */,
+			);
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		C8499334E83FCAD72FD32251 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0F2CDFF8EC61447B77CADD7 /* Pods_ToDoAppWithAuthAndPic.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CB8BF0120602514003F662C /* Build configuration list for PBXNativeTarget "ToDoAppWithAuthAndPic" */;
 			buildPhases = (
+				3E8C8C6384356B9777A09B37 /* [CP] Check Pods Manifest.lock */,
 				9CB8BEEB20602514003F662C /* Sources */,
 				9CB8BEEC20602514003F662C /* Frameworks */,
 				9CB8BEED20602514003F662C /* Resources */,
+				43423C4E116EE29E32C3FDDD /* [CP] Embed Pods Frameworks */,
+				4A508BEB9AF05F953C002CF4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,18 +208,93 @@
 				9CB8BEFD20602514003F662C /* LaunchScreen.storyboard in Resources */,
 				9CB8BEFA20602514003F662C /* Assets.xcassets in Resources */,
 				9CB8BEF820602514003F662C /* Main.storyboard in Resources */,
+				9CB8BF1D20602A13003F662C /* Info.plist in Resources */,
+				9CB8BF052060280D003F662C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E8C8C6384356B9777A09B37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToDoAppWithAuthAndPic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43423C4E116EE29E32C3FDDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ToDoAppWithAuthAndPic/Pods-ToDoAppWithAuthAndPic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToDoAppWithAuthAndPic/Pods-ToDoAppWithAuthAndPic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A508BEB9AF05F953C002CF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToDoAppWithAuthAndPic/Pods-ToDoAppWithAuthAndPic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9CB8BEEB20602514003F662C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CB8BEF520602514003F662C /* ViewController.swift in Sources */,
+				9CB8BF1420602A13003F662C /* HoshiTextField.swift in Sources */,
+				9CB8BF1620602A13003F662C /* YokoTextField.swift in Sources */,
+				9CB8BF1720602A13003F662C /* TextFieldEffects.swift in Sources */,
+				9CCD498720604BE4001F9184 /* ListTableViewController.swift in Sources */,
+				9CB8BF1C20602A13003F662C /* IsaoTextField.swift in Sources */,
+				9CCD498920604C0F001F9184 /* SignInViewController.swift in Sources */,
+				9CB8BF1320602A13003F662C /* YoshikoTextField.swift in Sources */,
+				9CB8BF1B20602A13003F662C /* AkiraTextField.swift in Sources */,
+				9CCD498B20604C39001F9184 /* SignUpViewController.swift in Sources */,
 				9CB8BEF320602514003F662C /* AppDelegate.swift in Sources */,
+				9CE537AB2062D02F00BA67AF /* ToDoViewController.swift in Sources */,
+				9CB8BF1520602A13003F662C /* MinoruTextField.swift in Sources */,
+				9CB8BF1A20602A13003F662C /* KaedeTextField.swift in Sources */,
+				9CB8BF1920602A13003F662C /* MadokaTextField.swift in Sources */,
+				9CB8BF1820602A13003F662C /* JiroTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +429,7 @@
 		};
 		9CB8BF0220602514003F662C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB414B6DA3851C2463C9FE63 /* Pods-ToDoAppWithAuthAndPic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +445,7 @@
 		};
 		9CB8BF0320602514003F662C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CD19F128C9B4D5017AC123D /* Pods-ToDoAppWithAuthAndPic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
