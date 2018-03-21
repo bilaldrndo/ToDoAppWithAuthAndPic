@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		11C056CE5E2BFFBC94FE2EE9 /* Pods_ToDoAppWithAuthAndPic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F2CDFF8EC61447B77CADD7 /* Pods_ToDoAppWithAuthAndPic.framework */; };
+		9C2775142062D43D004C86F0 /* ItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2775132062D43D004C86F0 /* ItemsTableViewCell.swift */; };
 		9CB8BEF320602514003F662C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB8BEF220602514003F662C /* AppDelegate.swift */; };
 		9CB8BEF820602514003F662C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB8BEF620602514003F662C /* Main.storyboard */; };
 		9CB8BEFA20602514003F662C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CB8BEF920602514003F662C /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		3CD19F128C9B4D5017AC123D /* Pods-ToDoAppWithAuthAndPic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoAppWithAuthAndPic.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToDoAppWithAuthAndPic/Pods-ToDoAppWithAuthAndPic.release.xcconfig"; sourceTree = "<group>"; };
+		9C2775132062D43D004C86F0 /* ItemsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewCell.swift; sourceTree = "<group>"; };
 		9CB8BEEF20602514003F662C /* ToDoAppWithAuthAndPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoAppWithAuthAndPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB8BEF220602514003F662C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CB8BEF720602514003F662C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			children = (
 				9CB8BEF220602514003F662C /* AppDelegate.swift */,
 				9CB8BEF620602514003F662C /* Main.storyboard */,
+				9C2775132062D43D004C86F0 /* ItemsTableViewCell.swift */,
 				9CCD498820604C0F001F9184 /* SignInViewController.swift */,
 				9CCD498A20604C39001F9184 /* SignUpViewController.swift */,
 				9CCD498620604BE4001F9184 /* ListTableViewController.swift */,
@@ -288,6 +291,7 @@
 				9CCD498920604C0F001F9184 /* SignInViewController.swift in Sources */,
 				9CB8BF1320602A13003F662C /* YoshikoTextField.swift in Sources */,
 				9CB8BF1B20602A13003F662C /* AkiraTextField.swift in Sources */,
+				9C2775142062D43D004C86F0 /* ItemsTableViewCell.swift in Sources */,
 				9CCD498B20604C39001F9184 /* SignUpViewController.swift in Sources */,
 				9CB8BEF320602514003F662C /* AppDelegate.swift in Sources */,
 				9CE537AB2062D02F00BA67AF /* ToDoViewController.swift in Sources */,
