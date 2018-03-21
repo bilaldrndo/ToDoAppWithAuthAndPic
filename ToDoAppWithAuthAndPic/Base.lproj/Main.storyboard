@@ -107,7 +107,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
                                 <color key="backgroundColor" red="0.97636479139328003" green="0.97653168439865112" blue="0.97635418176651001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gjt-To-HeX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gjt-To-HeX">
                                 <rect key="frame" x="127.5" y="136" width="120" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="7J8-Re-cYF"/>
@@ -166,6 +166,7 @@
                     <navigationItem key="navigationItem" id="575-pn-JYB"/>
                     <connections>
                         <outlet property="imgView" destination="gjt-To-HeX" id="1RF-c0-sJk"/>
+                        <outlet property="textView" destination="KCV-2S-lZO" id="8z1-VS-aav"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p7P-n5-e4P" userLabel="First Responder" sceneMemberID="firstResponder"/>
